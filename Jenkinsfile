@@ -5,6 +5,7 @@ pipeline {
         stage('compile') {
             steps {
                 sh 'make all'
+                echo "compiled"
             }
         }
     }
