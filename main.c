@@ -2,7 +2,7 @@
 
 int main(){
  int a,b;
- int e;
+ int d;
  a=3;
  b=5;
  int sum=a+b;
