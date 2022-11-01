@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'make all'
                 echo "compiled"
+                sh './a.out'
             }
         }
     }
